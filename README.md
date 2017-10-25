@@ -58,7 +58,7 @@ def get_post(event, context):
 * Kotlin
 * PHP 
 * Swift
-* 
+
 ## 2. [OpenFaaS](#openfaas)
 [OpenFaaS](https://github.com/openfaas/faas) (Functions as a Service) is a framework for building serverless functions with Docker which has first class support for metrics. Any process can be packaged as a function enabling you to consume a range of web events without repetitive boiler-plate coding.
 
@@ -248,7 +248,7 @@ Think of it as serverless functions meets [Unix Philosophy](https://en.wikipedia
 
 #### Supported languages/environments
 
-   - c ( with `gcc` )
+   - C ( with `gcc` )
    ```c
 #include<stdio.h>
 
@@ -258,7 +258,7 @@ int main(void)
     return 0;
 }
 ```
-   - java
+   - Java
 ```java
 class hook
 {
@@ -268,7 +268,7 @@ class hook
         }
 }
 ```
-   - javascript ( first-class support )
+   - Javascript ( first-class support )
 ```javascript
 module.exports = function (req, res) {
   res.write('Hello, this is a JavaScript function.\n');
@@ -277,12 +277,12 @@ module.exports = function (req, res) {
   res.end('');
 };
 ```
-   - babel ( ES6 / ES7 / etc ... )
-   - coffee-script
-   - common lisp
-   - bash
-   - lua
-   - golang
+   - Babel ( ES6 / ES7 / etc ... )
+   - Coffee-script
+   - Common Lisp
+   - Bash
+   - Lua
+   - Golang
 ```go
 package main
 import "fmt"
@@ -290,17 +290,17 @@ func main() {
     fmt.Println("hello world")
 }
 ```
-   - ocaml
-   - perl
-   - php
-   - python
+   - Ocaml
+   - Perl
+   - PHP
+   - Python
 ```python
 import pprint
 print "hello world"
 ```
-   - python3
-   - ruby
-   - rust
+   - Python3
+   - Ruby
+   - Rust
 ```rust
 // This is the main function
 fn main() {
@@ -310,7 +310,7 @@ fn main() {
     println!("Hello RustWorld!");
 }
 ```
-   - r
-   - scheme
-   - smalltalk
+   - R
+   - Scheme
+   - Smalltalk
    - tcl
