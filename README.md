@@ -156,7 +156,7 @@ func main() {
 ```
 * Scala
 
-## 5. [IronFunctions (Iron.io)](#ironfunctions)
+## 6. [IronFunctions (Iron.io)](#ironfunctions)
 [IronFunctions](https://github.com/iron-io/functions) is an open source serverless platform, or as we like to refer to it, Functions as a Service (FaaS) platform that you can run anywhere.
 
 #### Supported languages/environments
@@ -183,7 +183,7 @@ func main() {
 ```
 * Anything in a container
 
-## 6. [Fn (fnproject.io)](#fn)
+## 7. [Fn (fnproject.io)](#fn)
 [Fn](https://github.com/fnproject/fn) is an event-driven, open source, functions-as-a-service compute platform that you can run anywhere.
 
 #### Supported languages/environments
@@ -202,7 +202,7 @@ func main() {
 ```
 * Anything in a container
 
-## 7. [Kubeless](#kubeless)
+## 8. [Kubeless](#kubeless)
 [Kubeless](https://github.com/kubeless/kubeless) is a Kubernetes-native serverless framework that lets you deploy small bits of code without having to worry about the underlying infrastructure plumbing. It leverages Kubernetes resources to provide auto-scaling, API routing, monitoring, troubleshooting and more.
 
 Kubeless stands out as we use a Custom Resource Definition to be able to create functions as custom kubernetes resources. We then run an in-cluster controller that watches these custom resources and launches runtimes on-demand. The controller dynamically injects the functions code into the runtimes and make them available over HTTP or via a PubSub mechanism.
@@ -233,7 +233,7 @@ def foo(context)
 end
 ```
 
-## 8. [nuclio](#nuclio)
+## 9. [nuclio](#nuclio)
 [nuclio](https://github.com/nuclio/nuclio) is a new serverless project, derived from iguazio's elastic data life-cycle management service for high-performance events and data processing. nuclio is being extended to support a large variety of event and data sources. You can use nuclio as a standalone binary (for example, for IoT devices), package it within a Docker container, or integrate it with a container orchestrator like Kubernetes.
 
 nuclio is extremely fast. A single function instance can process hundreds of thousands of HTTP requests or data records per second. This is 10–100 times faster than some other frameworks.
@@ -272,7 +272,7 @@ func Handler(context *nuclio.Context, event nuclio.Event) (interface{}, error) {
 }
 ```
 
-## 9. [Microcule](#micromule)
+## 10. [Microcule](#micromule)
 [Microcule](https://github.com/Stackvana/microcule) is a software Development Kit and Command Line Interface for spawning streaming stateless HTTP microservices for any programming language or arbitrary binary.
 
 Think of it as serverless functions meets [Unix Philosophy](https://en.wikipedia.org/wiki/Unix_philosophy).
