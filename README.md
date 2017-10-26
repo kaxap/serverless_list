@@ -125,6 +125,37 @@ def main():
 ## 4. [Apache OpenWhisk](#openwhisk)
 [OpenWhisk](https://github.com/apache/incubator-openwhisk) is a cloud-first distributed event-based programming service. It provides a programming model to upload event handlers to a cloud service, and register the handlers to respond to various events.
 
+## 5. [Gordon](#gordon)
+[Gordon](https://github.com/jorgebastida/gordon) is a tool to create, wire and deploy AWS Lambdas using CloudFormation.
+#### Supported languages/environments
+
+* Python
+```python
+print('Loading function')
+
+
+def handler(event, context):
+    # print("Received event: " + json.dumps(event, indent=2))
+    print("value1 = " + event['key1'])
+    print("value2 = " + event['key2'])
+    print("value3 = " + event['key3'])
+    return event['key1']  # Echo back the first key value
+    # raise Exception('Something went wrong')
+```
+* Javascript
+* Java
+* Golang
+```go
+package main
+
+import "fmt"
+
+func main() {
+	fmt.Println("Hello, 世界")
+}
+```
+* Scala
+
 ## 5. [IronFunctions (Iron.io)](#ironfunctions)
 [IronFunctions](https://github.com/iron-io/functions) is an open source serverless platform, or as we like to refer to it, Functions as a Service (FaaS) platform that you can run anywhere.
 
