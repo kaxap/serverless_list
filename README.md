@@ -1,5 +1,20 @@
 # Serverless frameworks
-List of open source serverless frameworks by popularity with a short description from the repositories.
+A curated list of open source serverless frameworks by popularity with a short description from the repositories.
+
+1. [Serverless](https://github.com/kaxap/serverless_list/#1-serverless)
+2. [OpenFaaS](https://github.com/kaxap/serverless_list/#2-openfaas)
+3. [Fission](https://github.com/kaxap/serverless_list/#3-fission)
+4. [Apache OpenWhisk](https://github.com/kaxap/serverless_list/#4-apache-openwhisk)
+5. [Gordon](https://github.com/kaxap/serverless_list/#5-gordon)
+6. [Iron.io](https://github.com/kaxap/serverless_list/#6-ironfunctions-ironio)
+7. [fnproject.io](https://github.com/kaxap/serverless_list/#7-fn-fnprojectio)
+8. [Kubeless](https://github.com/kaxap/serverless_list/#8-kubeless)
+9. [nuclio](https://github.com/kaxap/serverless_list/#9-nuclio)
+10. [Microcule](https://github.com/kaxap/serverless_list/#10-microcule)
+11. [Rainbound](https://github.com/kaxap/serverless_list/#11-rainbond)
+12. [.architect](https://github.com/kaxap/serverless_list/#12-architect)
+
+
 
 ## 1. [Serverless](#serverless)
 [The Serverless Framework](https://github.com/serverless/serverless) – Build applications comprised of microservices that run in response to events, auto-scale for you, and only charge you when they run. This lowers the total cost of maintaining your apps, enabling you to build more logic, faster.
