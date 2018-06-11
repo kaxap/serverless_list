@@ -357,3 +357,12 @@ Rainbond is a production grade serverless PaaS. It integrates Kubernetes based c
 - NodeJS
 - Golang
 - Ruby
+
+## 12. [.architect](https://arc.codes/)
+ - Version control your architecture and create cloud infra in minutes from an .arc manifest
+ - Deploy in seconds with first class support for staging and production
+ - Work locally while completely offline with a speedy in-memory database
+ - Primitives not Frameworks; define app architecture agnostic of vendor arcana
+ 
+#### Supported languages/environments
+ - NodeJS
